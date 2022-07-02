@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQwZGBEekv0SPX116YtPlEQAAAAACAAAAAAAQZgAAAAEAACAAAAA43GM89bOHOw40c9pVEpV1Fox6Q4E3ByzGwW7m6fuTXwAAAAAOgAAAAAIAACAAAADpjV4ZjJffp+A8voJjiar1/f7tgaKTqz0J272MXPXau4AAAAAVgShePEaUAnwT09iD6wGDa4pTY48yaYDFtCyr7aIwGultV4E4E8UkDgRoc+tQOEG2G2PDhmwHXqHoiR49LkgO2/cxNxX6gn+T8wpzl5B1xGXA7kgX66Tnn0ULSYVkcDKp60UlmUlu/W4aayOdSDta7TLXERQdN9N/IQPbvuMZvUAAAACS0LyXpqESpFPLw06XSaG18yLpG6eTXQWg4ybISbOabTreMfidnGBWMc1Z2wzH1ztLMD4atW7ZhwV57THvm2WW</EncryptedPassword>
+    <History>False|2022-06-03T04:35:07.7529629Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="defaultConnection">
+      <Value>Data Source=tcp:cursomvcdbserver1.database.windows.net,1433%3bInitial Catalog=CursoMVC_db%3bUser Id=cursomvc%40cursomvcdbserver1%3bPassword=#Wrpfcaf82cda31533</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CursoMVC.Models.Context">
+      <Value>Data Source=tcp:cursomvcdbserver1.database.windows.net,1433%3bInitial Catalog=CursoMVC_db%3bUser Id=cursomvc%40cursomvcdbserver1%3bPassword=#Wrpfcaf82cda31533</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
